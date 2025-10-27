@@ -27,4 +27,8 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+
+  content: {
+    experimental: { sqliteConnector: 'native',  nativeSqlite: true },
+  },
 })
