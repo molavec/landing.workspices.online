@@ -16,19 +16,10 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/icon',
     '@nuxt/image',
-    '@nuxt/content',
     '@nuxt/fonts',
-    '@nuxt/scripts'
+    '@nuxt/scripts',
+    '@nuxt/ui',
   ],
 
   css: ['~/assets/css/main.css'],
-  vite: {
-    plugins: [
-      tailwindcss(),
-    ],
-  },
-
-  content: {
-    experimental: { sqliteConnector: 'native',  nativeSqlite: true },
-  },
 })
