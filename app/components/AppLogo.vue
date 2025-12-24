@@ -1,6 +1,6 @@
 <template>
   <div class="logo">
-    <h1 class="font-bold">Workspices</h1>
+    <h3 class="font-bold">Workspices</h3>
     <p class="ml-3 mt-[-6px] font-light">
       by 
       <span class="font-semibold">
