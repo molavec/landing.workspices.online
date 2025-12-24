@@ -7,6 +7,9 @@ useSeoMeta({
 
 <template>
   <Hero />
+  <Workspace />
+  <Quicklinks />
+  <Tasks />
   <Features />
   <HowTo />
   <DesignedBy />
