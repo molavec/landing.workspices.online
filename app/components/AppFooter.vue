@@ -1,38 +1,40 @@
 <script setup lang="ts">
-const columns = [{
-  label: 'Resources',
+const columns = [
+  // {
+//   label: 'Resources',
+//   children: [{
+//     label: 'Help center'
+//   }, {
+//     label: 'Docs'
+//   }, {
+//     label: 'Roadmap'
+//   }, {
+//     label: 'Changelog'
+//   }]
+// },
+{
+  label: 'Help',
   children: [{
-    label: 'Help center'
+    label: 'Terms of Service',
+    to: '/terms-of-service'
   }, {
-    label: 'Docs'
-  }, {
-    label: 'Roadmap'
-  }, {
-    label: 'Changelog'
+    label: 'Privacy Policy',
+    to: '/privacy-policy'
   }]
-}, {
-  label: 'Features',
-  children: [{
-    label: 'Affiliates'
-  }, {
-    label: 'Portal'
-  }, {
-    label: 'Jobs'
-  }, {
-    label: 'Sponsors'
-  }]
-}, {
-  label: 'Company',
-  children: [{
-    label: 'About'
-  }, {
-    label: 'Pricing'
-  }, {
-    label: 'Careers'
-  }, {
-    label: 'Blog'
-  }]
-}]
+}, 
+// {
+//   label: 'Company',
+//   children: [{
+//     label: 'About'
+//   }, {
+//     label: 'Pricing'
+//   }, {
+//     label: 'Careers'
+//   }, {
+//     label: 'Blog'
+//   }]
+// }
+]
 
 const toast = useToast()
 
@@ -51,7 +53,6 @@ function onSubmit() {
 
 <template>
   <USeparator
-    icon="i-simple-icons-nuxtdotjs"
     class="h-px"
   />
 
@@ -59,7 +60,7 @@ function onSubmit() {
     <template #top>
       <UContainer>
         <UFooterColumns :columns="columns">
-          <template #right>
+          <!-- <template #right>
             <form @submit.prevent="onSubmit">
               <UFormField
                 name="email"
@@ -82,7 +83,7 @@ function onSubmit() {
                 </UInput>
               </UFormField>
             </form>
-          </template>
+          </template> -->
         </UFooterColumns>
       </UContainer>
     </template>
@@ -93,7 +94,7 @@ function onSubmit() {
       </p>
     </template>
 
-    <template #right>
+    <!-- <template #right>
       <UButton
         to="https://go.nuxt.com/discord"
         target="_blank"
@@ -118,6 +119,6 @@ function onSubmit() {
         color="neutral"
         variant="ghost"
       />
-    </template>
+    </template> -->
   </UFooter>
 </template>

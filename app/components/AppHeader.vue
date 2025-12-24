@@ -29,23 +29,22 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
   <UHeader>
     <template #left>
       <NuxtLink to="/">
-        <AppLogo class="w-auto h-6 shrink-0" />
+        <AppLogo class="w-auto shrink-0" />
       </NuxtLink>
-
       <TemplateMenu />
     </template>
 
     <template #right>
-      <div class="menu flex items-center">
+      <!-- <div class="menu flex items-center">
         <UNavigationMenu
           :items="items"
           variant="link"
           class="menu hidden lg:block"
         />
-      </div>
+      </div> -->
 
       <UButton
-        label="Download App"
+        label="Get Started"
         variant="subtle"
         class="hidden lg:block"
       />
@@ -54,16 +53,16 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
     </template>
 
     <template #body>
-      <div class="menu">
+      <!-- <div class="menu">
         <UNavigationMenu
           :items="items"
           orientation="vertical"
           class="-mx-2.5"
         />
-      </div>
+      </div> -->
       <UButton
         class="mt-4"
-        label="Download App"
+        label="Get Started"
         variant="subtle"
         block
       />

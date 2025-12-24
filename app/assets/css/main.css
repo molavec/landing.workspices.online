@@ -1,21 +1,32 @@
-@import "tailwindcss";
 @import "@nuxt/ui";
+@import "tailwindcss";
 
-h1, h2, h3, h4, h5, h6, p, ul {
-  margin-bottom: 20px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  /* margin-bottom: 20px; */
   /* text-decoration: none; */
 }
 
-h1 { font-size: 1.8rem; }
+h1 {
+  font-size: 1.8rem;
+}
 
-h2 { font-size: 1.4rem; }
+h2 {
+  font-size: 1.4rem;
+}
 
 ul {
   list-style: disc;
   padding: 0px 30px;
 }
 
-a {
+/* a {
   color: #82c435;
   text-decoration: underline;
-}
+} */
