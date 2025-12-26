@@ -22,8 +22,8 @@ const links = [
 <template>
   <UPageHero
     headline="We are in Beta."
-    title="Workspices makes your digital chaos feel effortless."
-    description="Quicklinks and Task connect you instantly to the spaces where your team collaborates."
+    title="Workspices makes your digital chaos feel effortless"
+    description="Quicklinks and Task connect you instantly to the spaces where your team collaborates"
     orientation="horizontal"
     :links="links"
   >
