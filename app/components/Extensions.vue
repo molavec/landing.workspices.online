@@ -25,11 +25,11 @@ const browsers = [
       <UCard
         v-for="browser in browsers"
         :key="browser.name"
-        class="opacity-60 grayscale relative select-none"
+        class="relative select-none"
       >
         <div class="flex flex-col items-center gap-6 py-6">
-          <div class="flex items-center gap-4">
-            <UIcon :name="browser.icon" class="text-4xl opacity-80" />
+          <div class="flex items-center gap-4 opacity-40 grayscale">
+            <UIcon :name="browser.icon" class="text-4xl" />
             <div class="flex flex-col">
               <span class="text-xl font-medium">{{ browser.name }}</span>
               <span class="">Extension</span>
