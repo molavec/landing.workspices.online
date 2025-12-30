@@ -45,6 +45,7 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
 
       <UButton
         label="Get Started"
+        to="https://app.workspices.online"
         variant="subtle"
         class="hidden lg:block"
       />
@@ -63,6 +64,7 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
       <UButton
         class="mt-4"
         label="Get Started"
+        to="https://app.workspices.online"
         variant="subtle"
         block
       />
