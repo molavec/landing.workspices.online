@@ -12,6 +12,7 @@ useSeoMeta({
   <Workspace />
   <Quicklinks />
   <Tasks />
+  <Extensions />
   <DesignedBy /> 
   <TryItCTA />
 </template>
