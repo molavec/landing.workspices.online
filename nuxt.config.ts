@@ -2,12 +2,31 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
 
+  modules: [
+    '@nuxt/icon',
+    '@nuxt/image',
+    '@nuxt/fonts',
+    '@nuxt/scripts',
+    '@nuxt/ui',
+  ],
+
   app: {
     head: {
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/layout-panel-top.svg' }
       ]
     }
+  },
+
+  // useScript production only enabled
+  $production: {
+    scripts: {
+      registry: {
+        googleTagManager: {
+          id: 'GTM-NL656GHX',
+        },
+      },
+    },
   },
 
   nitro: {
@@ -18,13 +37,6 @@ export default defineNuxtConfig({
     }
   },
 
-  modules: [
-    '@nuxt/icon',
-    '@nuxt/image',
-    '@nuxt/fonts',
-    '@nuxt/scripts',
-    '@nuxt/ui',
-  ],
 
   devtools: { enabled: true },
 
