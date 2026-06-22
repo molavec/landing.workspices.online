@@ -2,6 +2,14 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
 
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/layout-panel-top.svg' }
+      ]
+    }
+  },
+
   nitro: {
     preset: "cloudflare_pages",
     cloudflare: {
