@@ -6,7 +6,7 @@
     orientation="horizontal"
   >
     <img
-      src="/task.jpg"
+      src="/tasks.jpg"
       alt="Workspices Tasks management"
       class="rounded-xl shadow-2xl ring-1 ring-neutral-200 dark:ring-neutral-800"
     />

@@ -13,6 +13,7 @@ useSeoMeta({
   <Quicklinks />
   <Tasks />
   <Extensions />
+  <Mcp />
   <DesignedBy /> 
   <TryItCTA />
 </template>

@@ -6,7 +6,7 @@
     orientation="horizontal"
   >
     <img
-      src="/workspace.jpg"
+      src="/wd_sidebar.jpg"
       alt="Workspices Workspace overview"
       class="rounded-xl shadow-2xl ring-1 ring-neutral-200 dark:ring-neutral-800"
     />
