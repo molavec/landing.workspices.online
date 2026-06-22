@@ -44,7 +44,7 @@ const links = [
     </template>
     
     <img
-      src="/hero_01.jpg"
+      src="/wd_marketing.jpg"
       alt="App screenshot"
       class="rounded-lg shadow-2xl ring ring-default"
     />
