@@ -1,21 +1,23 @@
 <script setup lang="ts">
-const links = [
+const { t } = useI18n()
+
+const links = computed(() => [
   {
-    label: 'Get started for free',
+    label: t('tryIt.cta'),
     to: 'https://app.workspices.online',
     icon: 'i-lucide-rocket',
     color: 'primary' as const,
     size: 'xl' as const,
     trailingIcon: 'i-lucide-arrow-right'
   }
-]
+])
 </script>
 
 <template>
   <UPageSection id="try-it" class="overflow-hidden">
     <UPageCTA
-      title="Ready to transform your digital workflow?"
-      description="Stop hunting through tabs and menus. Experience the bliss of an organized workspace where everything you need is just one click away."
+      :title="$t('tryIt.title')"
+      :description="$t('tryIt.description')"
       :links="links"
       class="rounded-3xl overflow-hidden relative"
     >
@@ -28,7 +30,7 @@ const links = [
           />
         </div>
         <p class="text-center text-sm opacity-80 mt-4">
-          * Join our beta today. No credit card required.
+          {{ $t('tryIt.note') }}
         </p>
       </template>
       

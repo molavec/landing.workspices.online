@@ -1,8 +1,8 @@
 <template>
   <UPageSection
     id="quicklinks"
-    title="Quicklinks"
-    description="Connect you and your team directly to your Google Drive folders, Figma designs, Trello boards, or any web resource. No more navigating menus or searching through bookmarks—everything your project needs is pinned and ready."
+    :title="$t('sections.quicklinks.title')"
+    :description="$t('sections.quicklinks.description')"
     orientation="horizontal"
     :reverse="true"
   >
@@ -18,7 +18,7 @@
             class="w-full h-full object-contain"
           />
         </div>
-        <span class="text-xs font-semibold uppercase tracking-wider" style="color: oklch(0.70 0.14 144.3);">Direct Access</span>
+        <span class="text-xs font-semibold uppercase tracking-wider" style="color: oklch(0.70 0.14 144.3);">{{ $t('sections.quicklinks.tag') }}</span>
       </div>
     </template>
     <img

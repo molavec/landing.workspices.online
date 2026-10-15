@@ -1,7 +1,7 @@
 <template>
   <UPageSection
     id="designed-by"
-    title="Designed by Digital Agency Coworkers, Consultants and Freelancers."
+    :title="$t('designedBy.title')"
     orientation="horizontal"
     :reverse="true"
   >

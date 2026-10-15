@@ -1,8 +1,8 @@
 <template>
   <UPageSection
     id="tasks"
-    title="Tasks"
-    description="Tasks in Teamspaces aren't just entries in a list; they are directly linked to your project resources. Assign quick actions to specific Quicklinks, ensuring your team knows exactly what to do and where to do it, keeping momentum high and confusion low."
+    :title="$t('sections.tasks.title')"
+    :description="$t('sections.tasks.description')"
     orientation="horizontal"
   >
     <template #headline>
@@ -17,7 +17,7 @@
             class="w-full h-full object-contain"
           />
         </div>
-        <span class="text-xs font-semibold uppercase tracking-wider" style="color: oklch(0.56 0.18 259.7);">Contextual Actions</span>
+        <span class="text-xs font-semibold uppercase tracking-wider" style="color: oklch(0.56 0.18 259.7);">{{ $t('sections.tasks.tag') }}</span>
       </div>
     </template>
     <img

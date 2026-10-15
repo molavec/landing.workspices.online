@@ -1,28 +1,30 @@
 <script setup lang="ts">
-const links = [
+const { t } = useI18n()
+
+const links = computed(() => [
   {
-    label: 'Get started',
+    label: t('hero.getStarted'),
     to: 'https://app.workspices.online',
     icon: 'i-lucide-square-play',
     color: 'primary' as const,
     size: 'lg' as const
   },
   {
-    label: 'Learn more',
+    label: t('hero.learnMore'),
     to: '#benefits',
     color: 'neutral' as const,
     variant: 'outline' as const,
     trailingIcon: 'i-lucide-arrow-right',
     size: 'lg' as const
   }
-]
+])
 
 </script>
 
 <template>
   <UPageHero
-    title="Teamspaces makes your digital chaos feel effortless"
-    description="Quicklinks and Task connect you instantly to the spaces where your team collaborates"
+    :title="$t('hero.title')"
+    :description="$t('hero.description')"
     orientation="horizontal"
     :links="links"
   >
@@ -41,13 +43,13 @@ const links = [
       <div class="flex flex-col gap-2 mt-4">
         <div>
           <UBadge
-            label="We are in Beta"
+            :label="$t('hero.beta')"
             color="primary"
             variant="subtle"
             size="md"
           />
         </div>
-        <p class="text-sm text-muted">* Start for free. No credit card required.</p>
+        <p class="text-sm text-muted">{{ $t('hero.freeNotice') }}</p>
       </div>
     </template>
     

@@ -1,55 +1,57 @@
 <script setup lang="ts">
-const tools = [
+const { t } = useI18n()
+
+const tools = computed(() => [
   {
-    name: 'Spaces',
+    name: t('tools.spaces.name'),
     colorOklch: 'oklch(0.63 0.22 25.4)',
     logo: '/logos/spaces.svg',
-    description: 'The team’s control center and cockpit, featuring its signature modular layout and seamless interconnections.',
+    description: t('tools.spaces.description'),
     comingSoon: false,
     cta: '#spaces',
-    ctaLabel: 'Explore Spaces'
+    ctaLabel: t('tools.spaces.cta')
   },
   {
-    name: 'Quicklinks',
+    name: t('tools.quicklinks.name'),
     colorOklch: 'oklch(0.70 0.14 144.3)',
     logo: '/logos/quicklinks.svg',
-    description: 'Instant access and cross-linking across resources, represented by fluid, interconnected nodes.',
+    description: t('tools.quicklinks.description'),
     comingSoon: false,
     cta: '#quicklinks',
-    ctaLabel: 'Explore Quicklinks'
+    ctaLabel: t('tools.quicklinks.cta')
   },
   {
-    name: 'Tasks',
+    name: t('tools.tasks.name'),
     colorOklch: 'oklch(0.56 0.18 259.7)',
     logo: '/logos/tasks.svg',
-    description: 'Tasks and action lists organized in an organic fluid flow with smart contextual bullet points.',
+    description: t('tools.tasks.description'),
     comingSoon: false,
     cta: '#tasks',
-    ctaLabel: 'Explore Tasks'
+    ctaLabel: t('tools.tasks.cta')
   },
   {
-    name: 'Assets',
+    name: t('tools.assets.name'),
     colorOklch: 'oklch(0.78 0.16 77.3)',
     logo: '/logos/assets.svg',
-    description: 'A refreshed concept for team resources, deliverables, and documents, evoking naturally layered fluid pages.',
+    description: t('tools.assets.description'),
     comingSoon: true
   },
   {
-    name: 'Skills',
+    name: t('tools.skills.name'),
     colorOklch: 'oklch(0.68 0.17 45.4)',
     logo: '/logos/skills.svg',
-    description: 'Shared AI prompts, capabilities, and integrations modeled as neural connections that simulate continuous learning and expansion.',
+    description: t('tools.skills.description'),
     comingSoon: true
   }
-]
+])
 </script>
 
 <template>
   <UPageSection
     id="tools"
-    headline="Modular Ecosystem"
-    title="Tools built for collaborative teams"
-    description="Every Teamspaces module is purposefully designed to enhance your team's focus, productivity, and connection."
+    :headline="$t('tools.headline')"
+    :title="$t('tools.title')"
+    :description="$t('tools.description')"
     class="relative"
   >
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mt-8">
@@ -79,7 +81,7 @@ const tools = [
               </div>
               <UBadge
                 v-if="tool.comingSoon"
-                label="Coming Soon"
+                :label="$t('tools.comingSoon')"
                 color="error"
                 variant="subtle"
                 size="sm"

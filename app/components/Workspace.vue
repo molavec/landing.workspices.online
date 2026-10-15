@@ -1,8 +1,8 @@
 <template>
   <UPageSection
     id="spaces"
-    title="Spaces"
-    description="Dedicated, distraction-free environments where you centralize all the specific tools and tasks your team needs. Instead of hunting through endless tabs, everything is organized in one shared space, ready for your team to collaborate in sync."
+    :title="$t('sections.spaces.title')"
+    :description="$t('sections.spaces.description')"
     orientation="horizontal"
   >
     <template #headline>
@@ -17,7 +17,7 @@
             class="w-full h-full object-contain"
           />
         </div>
-        <span class="text-xs font-semibold uppercase tracking-wider" style="color: oklch(0.63 0.22 25.4);">Team Cockpit</span>
+        <span class="text-xs font-semibold uppercase tracking-wider" style="color: oklch(0.63 0.22 25.4);">{{ $t('sections.spaces.tag') }}</span>
       </div>
     </template>
     <img
