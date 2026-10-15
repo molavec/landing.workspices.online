@@ -17,8 +17,8 @@ const browsers = [
 
 <template>
   <UPageSection
-    title="Browser Extensions"
-    description="Access your workspaces directly from your browser. Coming soon."
+    :title="$t('extensions.title')"
+    :description="$t('extensions.description')"
     class="relative"
   >
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-12">
@@ -32,13 +32,13 @@ const browsers = [
             <UIcon :name="browser.icon" class="text-4xl" />
             <div class="flex flex-col">
               <span class="text-xl font-medium">{{ browser.name }}</span>
-              <span class="">Extension</span>
+              <span class="">{{ $t('extensions.extension') }}</span>
             </div>
           </div>
           
           <div class="absolute top-4 right-4">
             <UBadge
-              label="Available Soon"
+              :label="$t('extensions.comingSoon')"
               color="error"
               variant="subtle"
             />

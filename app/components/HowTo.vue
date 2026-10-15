@@ -1,47 +1,51 @@
 <script setup lang="ts">
-const steps = [
+const { t } = useI18n()
+
+const steps = computed(() => [
   {
-    title: 'Create your Workspace',
-    description: 'Set up a dedicated space for your project (e.g., “Q4 Campaign”). Invite your team in seconds and start collaborating seamlessly.',
+    title: t('howItWorks.step1Title'),
+    description: t('howItWorks.step1Desc'),
     icon: 'i-lucide-layout-grid'
   },
   {
-    title: 'Add Quicklinks & Tasks',
-    description: 'Easily integrate links from Drive, Figma, or Trello. Assign quick tasks like “Fix design in Figma” to keep everyone aligned.',
+    title: t('howItWorks.step2Title'),
+    description: t('howItWorks.step2Desc'),
     icon: 'i-lucide-list-todo'
   },
   {
-    title: 'Access with a single click',
-    description: 'From your dashboard, open what’s essential instantly. Everything else stays closed, saving resources and keeping your focus sharp.',
+    title: t('howItWorks.step3Title'),
+    description: t('howItWorks.step3Desc'),
     icon: 'i-lucide-mouse-pointer-2'
   }
-]
+])
 
-const links = [
+const links = computed(() => [
   {
-    label: 'Get started',
+    label: t('howItWorks.getStarted'),
     to: 'https://app.workspices.online',
     icon: 'i-lucide-square-play',
     color: 'primary' as const,
-    size: 'lg' as const
+    size: 'xl' as const,
+    class: 'text-base py-3.5 px-6 font-semibold'
   }
-]
+])
 </script>
 
 <template>
   <UPageSection
     id="how-it-works"
-    headline="How it works"
-    title="Optimized for online teams working with multiple cloud tools"
+    :headline="$t('howItWorks.headline')"
+    :title="$t('howItWorks.title')"
+    :description="$t('howItWorks.description')"
     orientation="vertical"
     :links="links"
   >
-    <template #description>
+    <div class="w-full mt-8">
       <UStepper
         :items="steps"
         orientation="horizontal"
         class="w-full"
       />
-    </template>
+    </div>
   </UPageSection>
 </template>

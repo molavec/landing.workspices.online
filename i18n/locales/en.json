@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Teamspaces makes your digital chaos feel effortless",
+    "description": "Quicklinks and Task connect you instantly to the spaces where your team collaborates",
+    "getStarted": "Get started",
+    "learnMore": "Learn more",
+    "beta": "We are in Beta",
+    "freeNotice": "* Start for free. No credit card required."
+  },
+  "features": {
+    "title": "Teamspaces is designed to help you focus on what matters most.",
+    "timeSavingsTitle": "Time Savings",
+    "timeSavingsDesc": "Go straight to the sites where you actually work. Forget wasting minutes navigating menus or search bars—everything is just one click away.",
+    "focusTitle": "Fewer Tabs, More Focus",
+    "focusDesc": "Optimize both your RAM and your attention. Keep only the essential tabs open for your workflow and eliminate digital noise.",
+    "workspacesTitle": "Smart Collaborative Workspaces",
+    "workspacesDesc": "Organize spaces by client or project. Share key links and tasks with your team so everyone has instant access and works in sync."
+  },
+  "tools": {
+    "headline": "Modular Ecosystem",
+    "title": "Tools built for collaborative teams",
+    "description": "Every Teamspaces module is purposefully designed to enhance your team's focus, productivity, and connection.",
+    "comingSoon": "Coming Soon",
+    "spaces": {
+      "name": "Spaces",
+      "description": "The team’s control center and cockpit, featuring its signature modular layout and seamless interconnections.",
+      "cta": "Explore Spaces"
+    },
+    "quicklinks": {
+      "name": "Quicklinks",
+      "description": "Instant access and cross-linking across resources, represented by fluid, interconnected nodes.",
+      "cta": "Explore Quicklinks"
+    },
+    "tasks": {
+      "name": "Tasks",
+      "description": "Tasks and action lists organized in an organic fluid flow with smart contextual bullet points.",
+      "cta": "Explore Tasks"
+    },
+    "assets": {
+      "name": "Assets",
+      "description": "A refreshed concept for team resources, deliverables, and documents, evoking naturally layered fluid pages."
+    },
+    "skills": {
+      "name": "Skills",
+      "description": "Shared AI prompts, capabilities, and integrations modeled as neural connections that simulate continuous learning and expansion."
+    }
+  },
+  "howItWorks": {
+    "headline": "How it works",
+    "title": "Optimized for online teams working with multiple cloud tools",
+    "description": "A seamless workflow designed to eliminate tab clutter and keep your team aligned from day one.",
+    "getStarted": "Get started for free",
+    "step1Title": "Create your Space",
+    "step1Desc": "Set up a dedicated space for your client or project in seconds. Invite your team and keep all your mission-critical resources centralized.",
+    "step2Title": "Add Quicklinks & Tasks",
+    "step2Desc": "Pin direct access links to your Drive files, Figma boards, or Github repos. Attach quick actions to specific resources so your team always knows what to do.",
+    "step3Title": "Launch in One Click",
+    "step3Desc": "Access everything your team needs straight from your dashboard. Keep tabs closed, reduce digital clutter, and maintain maximum focus."
+  },
+  "sections": {
+    "spaces": {
+      "tag": "Team Cockpit",
+      "title": "Spaces",
+      "description": "Dedicated, distraction-free environments where you centralize all the specific tools and tasks your team needs. Instead of hunting through endless tabs, everything is organized in one shared space, ready for your team to collaborate in sync."
+    },
+    "quicklinks": {
+      "tag": "Direct Access",
+      "title": "Quicklinks",
+      "description": "Connect you and your team directly to your Google Drive folders, Figma designs, Trello boards, or any web resource. No more navigating menus or searching through bookmarks—everything your project needs is pinned and ready."
+    },
+    "tasks": {
+      "tag": "Contextual Actions",
+      "title": "Tasks",
+      "description": "Tasks in Teamspaces aren't just entries in a list; they are directly linked to your project resources. Assign quick actions to specific Quicklinks, ensuring your team knows exactly what to do and where to do it, keeping momentum high and confusion low."
+    }
+  },
+  "mcp": {
+    "title": "Model Context Protocol",
+    "description": "Drive Teamspaces directly from AI clients like Claude, ChatGPT, and Antigravity with full context integration.",
+    "client": "MCP Client",
+    "active": "Active"
+  },
+  "extensions": {
+    "title": "Browser Extensions",
+    "description": "Access your workspaces directly from your browser. Coming soon.",
+    "comingSoon": "Available Soon",
+    "extension": "Extension"
+  },
+  "designedBy": {
+    "title": "Designed by Digital Agency Coworkers, Consultants and Freelancers."
+  },
+  "tryIt": {
+    "title": "Ready to transform your digital workflow?",
+    "description": "Stop hunting through tabs and menus. Experience the bliss of an organized workspace where everything you need is just one click away.",
+    "cta": "Get started for free",
+    "note": "* Join our beta today. No credit card required."
+  }
+}

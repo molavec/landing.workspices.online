@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const nuxtApp = useNuxtApp()
 const { activeHeadings, updateHeadings } = useScrollspy()
+const { locale, setLocale } = useI18n()
 
 const items = computed(() => [{
   label: 'Features',
@@ -44,10 +45,19 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
       </div> -->
 
       <UButton
-        label="Get Started"
+        :label="$t('nav.getStarted')"
         to="https://app.workspices.online"
-        variant="subtle"
-        class="hidden lg:block"
+        color="primary"
+        variant="solid"
+        class="hidden lg:block border-0 shadow-none font-medium"
+      />
+
+      <UButton
+        variant="ghost"
+        color="neutral"
+        size="sm"
+        :label="locale === 'en' ? 'ES' : 'EN'"
+        @click="setLocale(locale === 'en' ? 'es' : 'en')"
       />
 
       <UColorModeButton />
@@ -62,10 +72,11 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
         />
       </div> -->
       <UButton
-        class="mt-4"
-        label="Get Started"
+        class="mt-4 border-0"
+        :label="$t('nav.getStarted')"
         to="https://app.workspices.online"
-        variant="subtle"
+        color="primary"
+        variant="solid"
         block
       />
     </template>

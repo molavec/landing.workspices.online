@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "features": "Características",
+    "pricing": "Precios",
+    "testimonials": "Testimonios",
+    "getStarted": "Comenzar"
+  },
+  "hero": {
+    "title": "Teamspaces hace que tu caos digital sea fluido y sin esfuerzo",
+    "description": "Quicklinks y Tasks te conectan al instante con los espacios donde tu equipo colabora",
+    "getStarted": "Comenzar",
+    "learnMore": "Conoce más",
+    "beta": "Estamos en Beta",
+    "freeNotice": "* Comienza gratis. No se requiere tarjeta de crédito."
+  },
+  "features": {
+    "title": "Teamspaces está diseñado para ayudarte a enfocarte en lo que más importa.",
+    "timeSavingsTitle": "Ahorro de Tiempo",
+    "timeSavingsDesc": "Ve directo a los sitios donde realmente trabajas. Olvídate de perder minutos navegando menús o barras de búsqueda: todo está a un solo clic.",
+    "focusTitle": "Menos Pestañas, Más Enfoque",
+    "focusDesc": "Optimiza tanto tu memoria RAM como tu atención. Mantén abiertas solo las pestañas esenciales para tu flujo de trabajo y elimina el ruido digital.",
+    "workspacesTitle": "Espacios de Trabajo Colaborativos e Inteligentes",
+    "workspacesDesc": "Organiza espacios por cliente o proyecto. Comparte enlaces y tareas clave con tu equipo para que todos tengan acceso instantáneo y trabajen en sincronía."
+  },
+  "tools": {
+    "headline": "Ecosistema Modular",
+    "title": "Herramientas diseñadas para el trabajo colaborativo",
+    "description": "Cada módulo de Teamspaces está diseñado con un propósito específico para potenciar la productividad y la conexión de tu equipo.",
+    "comingSoon": "Próximamente",
+    "spaces": {
+      "name": "Spaces",
+      "description": "La cabina o tablero de mandos del equipo con su característica estructura modular e interconexiones fluidas.",
+      "cta": "Explorar Spaces"
+    },
+    "quicklinks": {
+      "name": "Quicklinks",
+      "description": "Interconexión y acceso rápido a tus recursos, representados por nodos fluidos e interconectados.",
+      "cta": "Explorar Quicklinks"
+    },
+    "tasks": {
+      "name": "Tasks",
+      "description": "Tareas y listas de acción organizadas en un flujo fluido con detalles y contexto directo.",
+      "cta": "Explorar Tasks"
+    },
+    "assets": {
+      "name": "Assets",
+      "description": "El nuevo concepto para recursos, entregables y documentos, con un logo que evoca capas o páginas fluidas superpuestas de manera natural."
+    },
+    "skills": {
+      "name": "Skills",
+      "description": "Capacidades, prompts e integraciones de IA compartidas, con una estructura de conexiones neuronales que simula el flujo de aprendizaje y expansión."
+    }
+  },
+  "howItWorks": {
+    "headline": "Cómo funciona",
+    "title": "Optimizado para equipos online que trabajan con múltiples herramientas en la nube",
+    "description": "Un flujo de trabajo fluido diseñado para eliminar el desorden de pestañas y mantener a tu equipo alineado desde el primer día.",
+    "getStarted": "Comienza gratis",
+    "step1Title": "Crea tu Space",
+    "step1Desc": "Configura un espacio dedicado para tu cliente o proyecto en segundos. Invita a tu equipo y mantén centralizados tus recursos críticos.",
+    "step2Title": "Añade Quicklinks y Tasks",
+    "step2Desc": "Fija enlaces directos a tus carpetas de Drive, archivos de Figma o repositorios de GitHub. Asigna acciones rápidas vinculadas a recursos específicos.",
+    "step3Title": "Accede en un Clic",
+    "step3Desc": "Abre todo lo que tu equipo necesita directamente desde tu panel de control. Mantén pestañas cerradas, ahorra recursos y maximiza tu enfoque."
+  },
+  "sections": {
+    "spaces": {
+      "tag": "Cabina del Equipo",
+      "title": "Spaces",
+      "description": "Espacios dedicados y libres de distracciones donde centralizas todas las herramientas y tareas específicas que tu equipo necesita. En lugar de buscar entre interminables pestañas, todo está organizado en un espacio compartido, listo para colaborar en sincronía."
+    },
+    "quicklinks": {
+      "tag": "Acceso Directo",
+      "title": "Quicklinks",
+      "description": "Conéctate tú y tu equipo directamente a tus carpetas de Google Drive, diseños de Figma, tableros de Trello o cualquier recurso web. Sin navegar menús ni rebuscar en marcadores: todo lo que tu proyecto necesita está anclado y listo."
+    },
+    "tasks": {
+      "tag": "Acciones en Contexto",
+      "title": "Tasks",
+      "description": "Las tareas en Teamspaces no son solo entradas en una lista; están vinculadas directamente a los recursos de tu proyecto. Asigna acciones rápidas a Quicklinks específicos, asegurando que tu equipo sepa exactamente qué hacer y dónde hacerlo."
+    }
+  },
+  "mcp": {
+    "title": "Protocolo de Contexto de Modelo (MCP)",
+    "description": "Controla Teamspaces directamente desde clientes de IA como Claude, ChatGPT y Antigravity con integración total de contexto.",
+    "client": "Cliente MCP",
+    "active": "Activo"
+  },
+  "extensions": {
+    "title": "Extensiones de Navegador",
+    "description": "Accede a tus espacios de trabajo directamente desde tu navegador favorito. Próximamente.",
+    "comingSoon": "Disponible Pronto",
+    "extension": "Extensión"
+  },
+  "designedBy": {
+    "title": "Diseñado por colaboradores de agencias digitales, consultores y freelancers."
+  },
+  "tryIt": {
+    "title": "¿Listo para transformar tu flujo digital?",
+    "description": "Deja de buscar entre pestañas y menús. Experimenta la tranquilidad de un espacio de trabajo organizado donde todo lo que necesitas está a solo un clic.",
+    "cta": "Comenzar gratis",
+    "note": "* Únete a nuestra beta hoy. No se requiere tarjeta de crédito."
+  }
+}

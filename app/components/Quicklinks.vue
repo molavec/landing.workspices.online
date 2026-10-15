@@ -1,15 +1,40 @@
 <template>
   <UPageSection
     id="quicklinks"
-    title="Go Straight to Work with One Click"
-    description="Quicklinks connect you and your team directly to your Google Drive folders, Figma designs, Trello boards, or any web resource. No more navigating menus or searching through bookmarks—everything your project needs is pinned and ready."
+    :title="$t('sections.quicklinks.title')"
+    :description="$t('sections.quicklinks.description')"
     orientation="horizontal"
     :reverse="true"
   >
-    <img
-      src="/quicklinks.jpg"
-      alt="Workspices Quicklinks interface"
-      class="rounded-xl shadow-2xl ring-1 ring-neutral-200 dark:ring-neutral-800"
-    />
+    <template #headline>
+      <div class="flex items-center gap-3 mb-2">
+        <div
+          class="w-12 h-12 rounded-xl p-2 flex items-center justify-center"
+          style="background-color: color-mix(in oklch, oklch(0.70 0.14 144.3) 15%, transparent); color: oklch(0.70 0.14 144.3);"
+        >
+          <img
+            src="/logos/quicklinks.svg"
+            alt="Quicklinks Logo"
+            class="w-full h-full object-contain"
+          />
+        </div>
+        <span class="text-xs font-semibold uppercase tracking-wider" style="color: oklch(0.70 0.14 144.3);">{{ $t('sections.quicklinks.tag') }}</span>
+      </div>
+    </template>
+    <div class="relative group w-full">
+      <div
+        class="absolute -inset-1 rounded-2xl opacity-40 dark:opacity-60 blur-xl transition-all duration-500 group-hover:opacity-75"
+        style="background: radial-gradient(circle, oklch(0.70 0.14 144.3 / 0.5) 0%, transparent 70%);"
+      />
+      <img
+        src="/quicklinks.jpg"
+        alt="Teamspaces Quicklinks interface"
+        class="relative rounded-xl ring-1"
+        style="
+          border-color: color-mix(in oklch, oklch(0.70 0.14 144.3) 30%, transparent);
+          box-shadow: 0 20px 40px -15px color-mix(in oklch, oklch(0.70 0.14 144.3) 45%, transparent), 0 0 25px -5px color-mix(in oklch, oklch(0.70 0.14 144.3) 35%, transparent);
+        "
+      />
+    </div>
   </UPageSection>
 </template>

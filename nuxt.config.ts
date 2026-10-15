@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
 
   modules: [
+    '@nuxtjs/i18n',
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxt/fonts',
@@ -10,10 +11,19 @@ export default defineNuxtConfig({
     '@nuxt/ui',
   ],
 
+  i18n: {
+    locales: [
+      { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
+      { code: 'es', language: 'es-ES', name: 'Español', file: 'es.json' }
+    ],
+    defaultLocale: 'en',
+    strategy: 'prefix_except_default'
+  },
+
   app: {
     head: {
       link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/layout-panel-top.svg' }
+        { rel: 'icon', type: 'image/svg+xml', href: '/logos/spaces.svg' }
       ]
     }
   },
