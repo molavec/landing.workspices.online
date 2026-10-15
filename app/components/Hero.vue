@@ -46,9 +46,14 @@ const links = computed(() => [
         <div>
           <UBadge
             :label="$t('hero.beta')"
-            color="primary"
             variant="subtle"
             size="md"
+            class="font-medium"
+            style="
+              background-color: color-mix(in oklch, oklch(0.70 0.14 144.3) 15%, transparent);
+              color: oklch(0.70 0.14 144.3);
+              border: 1px solid color-mix(in oklch, oklch(0.70 0.14 144.3) 30%, transparent);
+            "
           />
         </div>
         <p class="text-sm text-muted">{{ $t('hero.freeNotice') }}</p>
