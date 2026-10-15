@@ -26,7 +26,7 @@ const features = [
 <template>
   <UPageSection
     id="features"
-    title="Workspices is designed to help you focus on what matters most."
+    title="Teamspaces is designed to help you focus on what matters most."
     description=""
     orientation="vertical"
     :features="features"

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: "Workspices - Conquer Your Digital Chaos",
+  title: "Teamspaces - Conquer Your Digital Chaos",
   description: "Direct access with Quicklinks to your team workspaces."
 })
 </script>
@@ -8,6 +8,7 @@ useSeoMeta({
 <template>
   <Hero />
   <Features />
+  <Tools />
   <HowTo />
   <Workspace />
   <Quicklinks />

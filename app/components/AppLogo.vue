@@ -1,20 +1,18 @@
 <template>
-  <div class="logo">
-    <h3 class="font-bold">Workspices</h3>
-    <p class="ml-3 mt-[-6px] font-light">
-      by 
-      <span class="font-semibold">
-        Queonda.<span class="text-queonda-red-500">ART</span>
-      </span></p>
+  <div class="logo flex items-center gap-3">
+    <img
+      src="/logos/spaces.svg"
+      alt="Teamspaces"
+      class="w-9 h-9 shrink-0 object-contain"
+    />
+    <div>
+      <h3 class="font-bold text-base leading-tight">Teamspaces</h3>
+      <p class="font-light text-xs text-neutral-500 dark:text-neutral-400">
+        <span class="font-semibold text-black dark:text-white">Online</span>
+      </p>
+    </div>
   </div>
 </template>
 
 <style scoped>
-  .logo h1 {
-    font-size: 1.2rem;
-  }
-
-  .logo p {
-    font-size: 0.8rem;
-  }
 </style>

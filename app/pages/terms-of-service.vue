@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 useHead({
-  title: 'Terms of Service - Workspices',
+  title: 'Terms of Service - Teamspaces',
   meta: [
-    { name: 'description', content: 'Terms of Service for Workspices' }
+    { name: 'description', content: 'Terms of Service for Teamspaces' }
   ]
 })
 </script>
@@ -14,7 +14,7 @@ useHead({
     <p class="text-sm text-gray-600 mb-6">Effective date: 2025-10-26</p>
     
     <p class="mb-6">
-      Welcome to Workspices. These Terms of Service ("Terms") govern your access to and use of the Workspices software-as-a-service offering (the "Service" or "Workspices"), provided by the operator of this site ("we", "us", or "Company"). By accessing or using the Service you agree to be bound by these Terms.
+      Welcome to Teamspaces. These Terms of Service ("Terms") govern your access to and use of the Teamspaces software-as-a-service offering (the "Service" or "Teamspaces"), provided by the operator of this site ("we", "us", or "Company"). By accessing or using the Service you agree to be bound by these Terms.
     </p>
 
     <p class="mb-6">

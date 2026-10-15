@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 useHead({
-  title: 'Privacy Policy - Workspices',
+  title: 'Privacy Policy - Teamspaces',
   meta: [
-    { name: 'description', content: 'Privacy Policy for Workspices' }
+    { name: 'description', content: 'Privacy Policy for Teamspaces' }
   ]
 })
 </script>

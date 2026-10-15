@@ -22,8 +22,8 @@ const links = [
       <template #default>
         <div class="absolute inset-0 flex items-center justify-end -mr-20 opacity-10 pointer-events-none overflow-hidden">
            <img
-            src="/workspices_icon.png"
-            alt="Workspices Logo"
+            src="/logos/spaces.svg"
+            alt="Teamspaces Logo"
             class="w-96 h-96 transform rotate-12"
           />
         </div>

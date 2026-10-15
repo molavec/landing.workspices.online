@@ -21,26 +21,34 @@ const links = [
 
 <template>
   <UPageHero
-    headline="We are in Beta."
-    title="Workspices makes your digital chaos feel effortless"
+    title="Teamspaces makes your digital chaos feel effortless"
     description="Quicklinks and Task connect you instantly to the spaces where your team collaborates"
     orientation="horizontal"
     :links="links"
   >
     <template #headline>
-      <div>
+      <div class="flex items-center">
         <img
-          src="/workspices_icon.png"
-          alt="App screenshot"
+          src="/logos/spaces.svg"
+          alt="Teamspaces Logo"
           height="80"
           width="80"
-          class=""
+          class="w-20 h-20 object-contain"
         />
-        <span class="text-md font-semibold text-primary">We are in Beta.</span>
       </div>
     </template>
     <template #body>
-      <p class="text-sm text-muted">* Start for free. No credit card required.</p>
+      <div class="flex flex-col gap-2 mt-4">
+        <div>
+          <UBadge
+            label="We are in Beta"
+            color="primary"
+            variant="subtle"
+            size="md"
+          />
+        </div>
+        <p class="text-sm text-muted">* Start for free. No credit card required.</p>
+      </div>
     </template>
     
     <img
