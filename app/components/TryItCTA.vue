@@ -8,7 +8,8 @@ const links = computed(() => [
     icon: 'i-lucide-rocket',
     color: 'primary' as const,
     size: 'xl' as const,
-    trailingIcon: 'i-lucide-arrow-right'
+    trailingIcon: 'i-lucide-arrow-right',
+    class: 'text-lg py-4 px-8 font-semibold shadow-xl'
   }
 ])
 </script>

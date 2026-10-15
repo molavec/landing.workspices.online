@@ -7,15 +7,15 @@ useSeoMeta({
 
 <template>
   <Hero />
-  <Features />
   <Tools />
-  <HowTo />
-  <Workspace />
+  <Spaces />
   <Quicklinks />
   <Tasks />
-  <Extensions />
+  <HowTo />
   <Mcp />
+  <Extensions />
   <Pricing />
+  <Features />
   <DesignedBy /> 
   <TryItCTA />
 </template>

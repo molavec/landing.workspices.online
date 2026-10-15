@@ -25,7 +25,8 @@ const links = computed(() => [
     to: 'https://app.workspices.online',
     icon: 'i-lucide-square-play',
     color: 'primary' as const,
-    size: 'lg' as const
+    size: 'xl' as const,
+    class: 'text-base py-3.5 px-6 font-semibold'
   }
 ])
 </script>

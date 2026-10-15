@@ -103,9 +103,10 @@ const tools = computed(() => [
               :to="tool.cta"
               :label="tool.ctaLabel || 'Learn more'"
               trailing-icon="i-lucide-arrow-down"
-              variant="subtle"
+              variant="solid"
               color="primary"
-              size="sm"
+              size="md"
+              class="px-4 py-2 font-medium border-0 shadow-none"
             />
           </div>
         </div>
