@@ -9,6 +9,8 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/scripts',
     '@nuxt/ui',
+    '@nuxt/content',
+    'nuxt-studio',
   ],
 
   i18n: {
@@ -39,11 +41,30 @@ export default defineNuxtConfig({
     },
   },
 
+  routeRules: {
+    '/blog/**': { prerender: true },
+    '/es/blog/**': { prerender: true }
+  },
+
   nitro: {
     preset: "cloudflare_pages",
     cloudflare: {
       deployConfig: true,
       nodeCompat: true
+    },
+    prerender: {
+      crawlLinks: true,
+      routes: ['/blog', '/es/blog']
+    }
+  },
+
+  studio: {
+    route: '/_studio',
+    repository: {
+      provider: 'github',
+      owner: 'molavec',
+      repo: 'landing.workspices.online',
+      branch: 'dev'
     }
   },
 

@@ -100,5 +100,21 @@
     "description": "Deja de buscar entre pestañas y menús. Experimenta la tranquilidad de un espacio de trabajo organizado donde todo lo que necesitas está a solo un clic.",
     "cta": "Comenzar gratis",
     "note": "* Únete a nuestra beta hoy. No se requiere tarjeta de crédito."
+  },
+  "blog": {
+    "headline": "Blog y Recursos",
+    "title": "Ideas sobre flujos de trabajo modernos e IA",
+    "description": "Descubre consejos prácticos, novedades de producto y estrategias para mejorar la colaboración y dominar el caos digital.",
+    "backToBlog": "Volver al Blog",
+    "tableOfContents": "En esta página",
+    "empty": "Aún no hay artículos publicados.",
+    "readArticle": "Leer artículo",
+    "featured": "Destacado"
+  },
+  "footer": {
+    "blog": "Blog",
+    "help": "Ayuda",
+    "terms": "Términos de Servicio",
+    "privacy": "Política de Privacidad"
   }
 }
