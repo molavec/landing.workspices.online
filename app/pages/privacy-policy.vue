@@ -14,7 +14,7 @@ useHead({
     <p class="text-sm text-gray-600 mb-6">Effective date: 2025-10-26</p>
     
     <p class="mb-6">
-      This Privacy Policy explains how we collect, use, disclose, and protect personal information when you visit and use the website at landing.workspices.online ("the Site"). By using the Site, you agree to the collection and use of information in accordance with this policy.
+      This Privacy Policy explains how we collect, use, disclose, and protect personal information when you visit and use the website at landing.teamspaces.online ("the Site"). By using the Site, you agree to the collection and use of information in accordance with this policy.
     </p>
 
     <h2 class="text-2xl font-bold mt-8 mb-4">Information we collect</h2>
@@ -84,7 +84,7 @@ useHead({
     <h2 class="text-2xl font-bold mt-8 mb-4">Contact</h2>
     <p class="mb-6">
       If you have questions about this Privacy Policy or wish to exercise your data rights, contact us at: 
-      <a href="mailto:contact@workspices.online" class="text-blue-600 hover:underline">contact@workspices.online</a>
+      <a href="mailto:contact@teamspaces.online" class="text-blue-600 hover:underline">contact@teamspaces.online</a>
     </p>
 
     <p class="text-sm text-gray-600 mt-12">Last updated: 2025-10-26</p>

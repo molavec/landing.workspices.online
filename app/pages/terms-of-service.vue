@@ -108,7 +108,7 @@ useHead({
     <h2 class="text-2xl font-bold mt-8 mb-4">15. Contact</h2>
     <p class="mb-6">
       If you have questions about these Terms or need to contact us, email: 
-      <a href="mailto:contact@workspices.online" class="text-blue-600 hover:underline">contact@workspices.online</a>
+      <a href="mailto:contact@teamspaces.online" class="text-blue-600 hover:underline">contact@teamspaces.online</a>
     </p>
 
     <p class="text-sm text-gray-600 mt-12">Last updated: 2025-10-26</p>

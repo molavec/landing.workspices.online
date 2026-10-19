@@ -22,7 +22,7 @@ const steps = computed(() => [
 const links = computed(() => [
   {
     label: t('howItWorks.getStarted'),
-    to: 'https://app.workspices.online',
+    to: 'https://app.teamspaces.online',
     icon: 'i-lucide-square-play',
     color: 'primary' as const,
     size: 'xl' as const,
