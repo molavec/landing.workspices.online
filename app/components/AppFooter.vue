@@ -1,40 +1,26 @@
 <script setup lang="ts">
-const columns = [
-  // {
-//   label: 'Resources',
-//   children: [{
-//     label: 'Help center'
-//   }, {
-//     label: 'Docs'
-//   }, {
-//     label: 'Roadmap'
-//   }, {
-//     label: 'Changelog'
-//   }]
-// },
-{
-  label: 'Help',
-  children: [{
-    label: 'Terms of Service',
-    to: '/terms-of-service'
-  }, {
-    label: 'Privacy Policy',
-    to: '/privacy-policy'
-  }]
-}, 
-// {
-//   label: 'Company',
-//   children: [{
-//     label: 'About'
-//   }, {
-//     label: 'Pricing'
-//   }, {
-//     label: 'Careers'
-//   }, {
-//     label: 'Blog'
-//   }]
-// }
-]
+const localePath = useLocalePath()
+const { t } = useI18n()
+
+const columns = computed(() => [
+  {
+    label: t('footer.help'),
+    children: [{
+      label: t('footer.terms'),
+      to: localePath('/terms-of-service')
+    }, {
+      label: t('footer.privacy'),
+      to: localePath('/privacy-policy')
+    }]
+  },
+  {
+    label: t('blog.headline'),
+    children: [{
+      label: t('footer.blog'),
+      to: localePath('/blog')
+    }]
+  }
+])
 
 const toast = useToast()
 

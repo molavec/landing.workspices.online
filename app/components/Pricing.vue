@@ -24,7 +24,7 @@ const plans = [
       'API Keys'
     ],
     buttonText: 'Get Started',
-    buttonLink: 'https://app.workspices.online/',
+    buttonLink: 'https://app.teamspaces.online/',
     buttonColor: 'neutral' as const,
     buttonVariant: 'outline' as const
   },
@@ -48,7 +48,7 @@ const plans = [
     ],
     missingFeatures: [],
     buttonText: 'Start Free Trial',
-    buttonLink: 'https://app.workspices.online/',
+    buttonLink: 'https://app.teamspaces.online/',
     buttonColor: 'primary' as const,
     buttonVariant: 'solid' as const
   },
@@ -129,7 +129,7 @@ const plans = [
 
         <UButton
           block
-          to="https://app.workspices.online/"
+          to="https://app.teamspaces.online/"
           :color="plan.buttonColor"
           :variant="plan.buttonVariant"
           class="mb-8 justify-center"
@@ -163,7 +163,7 @@ const plans = [
             </h3>
             <p class="text-gray-500 dark:text-gray-400 mt-2 text-sm">Need custom integrations, SLA, or self-hosting options? Let's talk.</p>
           </div>
-          <UButton color="neutral" variant="solid" size="lg" to="https://app.workspices.online/">
+          <UButton color="neutral" variant="solid" size="lg" to="https://app.teamspaces.online/">
             Contact Sales
           </UButton>
         </div>

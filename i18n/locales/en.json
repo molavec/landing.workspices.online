@@ -100,5 +100,21 @@
     "description": "Stop hunting through tabs and menus. Experience the bliss of an organized workspace where everything you need is just one click away.",
     "cta": "Get started for free",
     "note": "* Join our beta today. No credit card required."
+  },
+  "blog": {
+    "headline": "Blog & Resources",
+    "title": "Insights on modern workflows & AI",
+    "description": "Discover actionable tips, product updates, and strategies to streamline team collaboration and tame digital clutter.",
+    "backToBlog": "Back to Blog",
+    "tableOfContents": "On this page",
+    "empty": "No articles published yet.",
+    "readArticle": "Read article",
+    "featured": "Featured"
+  },
+  "footer": {
+    "blog": "Blog",
+    "help": "Help",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
   }
 }

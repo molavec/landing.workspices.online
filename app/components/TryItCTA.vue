@@ -4,7 +4,7 @@ const { t } = useI18n()
 const links = computed(() => [
   {
     label: t('tryIt.cta'),
-    to: 'https://app.workspices.online',
+    to: 'https://app.teamspaces.online',
     icon: 'i-lucide-rocket',
     color: 'primary' as const,
     size: 'xl' as const,
