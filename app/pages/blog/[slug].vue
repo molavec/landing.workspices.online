@@ -1,13 +1,16 @@
 <script setup lang="ts">
+import { withoutTrailingSlash } from 'ufo'
+
 const route = useRoute()
 const { locale } = useI18n()
 const localePath = useLocalePath()
 
 const collectionName = computed(() => (locale.value === 'es' ? 'blog_es' : 'blog_en'))
+const cleanPath = computed(() => withoutTrailingSlash(route.path))
 
 const { data: post } = await useAsyncData(
-  () => `blog-post-${route.path}`,
-  () => queryCollection(collectionName.value).path(route.path).first()
+  () => `blog-post-${cleanPath.value}`,
+  () => queryCollection(collectionName.value).path(cleanPath.value).first()
 )
 
 if (!post.value) {
@@ -19,8 +22,8 @@ if (!post.value) {
 }
 
 const { data: surround } = await useAsyncData(
-  () => `blog-surround-${route.path}`,
-  () => queryCollectionItemSurroundings(collectionName.value, route.path, { fields: ['description'] })
+  () => `blog-surround-${cleanPath.value}`,
+  () => queryCollectionItemSurroundings(collectionName.value, cleanPath.value, { fields: ['description'] })
 )
 
 function formatDate(dateStr?: string | Date) {
